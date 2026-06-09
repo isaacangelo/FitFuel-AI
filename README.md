@@ -76,6 +76,19 @@ If a dataset is missing, the app returns an empty DataFrame with expected column
 - Never expose API keys in screenshots, demos, or public repositories
 - Developer Debug shows key loaded (Yes/No) and key length only, never the key itself
 
+## Technology Stack
+
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Google Gemini API
+- google-genai
+- python-dotenv
+- CSV datasets
+- Git
+- GitHub
+
 ## Setup Instructions
 
 ### Prerequisites
@@ -111,6 +124,83 @@ Or:
 
 ```bash
 python -m streamlit run app.py
+```
+
+## System Architecture
+
+FitFuel AI follows a perception → reasoning → action agent architecture. The system collects user inputs, parses natural-language requests, estimates nutrition targets, retrieves food data from CSV datasets, applies meal scoring logic, and generates meal planning outputs. Gemini is used only as an AI recommendation layer, while CSV datasets and Python calculations remain the source of truth.
+
+Architecture flow:
+
+User Input → Local Parser → Nutrition Target Estimation → CSV Data Lookup → Meal Scoring Logic → Meal Plan Generation → Food Log & Budget Analysis → AI Recommendation Layer → Final Output
+
+```mermaid
+flowchart TD
+    subgraph INPUT_LAYER [Input / Perception Layer]
+        A1[Sidebar Inputs]
+        A2[Ask FitFuel AI Prompt]
+        A3[Food Already Eaten]
+    end
+
+    subgraph PROCESSING_LAYER [Reasoning / Processing Layer]
+        B[User Input Processing]
+        C[Local Natural-Language Parser]
+        D[Nutrition Target Estimation]
+        E[CSV Food Data Lookup]
+        G[Meal Scoring and Decision Logic]
+        H[Meal Plan Generation]
+    end
+
+    subgraph DATA_LAYER [Knowledge / Data Sources]
+        F1[Filipino Recipes CSV]
+        F2[Clean Nutrition CSV]
+        F3[Food Database CSV]
+    end
+
+    subgraph ANALYSIS_LAYER [Analysis Layer]
+        I[Budget Check and Grocery List]
+        J[Food Log and Nutrition Analysis]
+    end
+
+    subgraph AI_LAYER [AI Recommendation Layer]
+        K[Gemini Recommendation Layer]
+        L{Gemini API Available?}
+        M[Enhanced AI Recommendations]
+        N[Rule-Based Fallback Recommendations]
+    end
+
+    subgraph OUTPUT_LAYER [Action / Output Layer]
+        O[Final User Output]
+    end
+
+    A1 --> B
+    A2 --> B
+    A3 --> B
+
+    B --> C
+    C --> D
+    D --> E
+
+    F1 --> E
+    F2 --> E
+    F3 --> E
+
+    E --> G
+    G --> H
+
+    H --> I
+    H --> J
+
+    I --> K
+    J --> K
+
+    K --> L
+
+    L -->|Yes| M
+    L -->|No| N
+
+    M --> O
+    N --> O
 ```
 
 ## Agent Design and Decision Logic
@@ -188,6 +278,15 @@ This is not pure chain-of-thought prompting shown to the user. Instead, it is a 
 
 Gemini is used only for natural-language recommendation generation, while CSV datasets and Python calculations remain the source of truth.
 
+## Testing
+
+The project includes a comprehensive test suite to ensure robustness and correctness:
+
+- **Meal Plan Quality (`smoke_test.py` TC1)**: Verifies that generated meal plans include diverse Filipino dishes and restrict overly generic fallback meals.
+- **Natural Language Parsing (`smoke_test.py` TC4/TC5)**: Verifies extraction of budget, available ingredients, desired items, and limits parser overlap.
+- **Food Log Parsing**: Verifies that `parse_quantity_food()` correctly strips common serving/unit words and supports fractional values to match food data accurately.
+- **Execution**: Run `python smoke_test.py` to run the test suite and evaluate the agent's output.
+
 ## Responsible AI Reflection and Limitations
 
 - Nutrition values and food prices in CSV files are **estimates**. Real values vary by brand, portion, cooking method, store, market, location, and time.
@@ -201,36 +300,16 @@ Gemini is used only for natural-language recommendation generation, while CSV da
 
 ## UI Notes (Demo-Ready)
 
-- UI layout is inspired by modern meal-planning dashboards (rounded cards, spacing, clear CTAs) but remains a **Filipino fitness-support meal planning agent**, not a restaurant ordering site.
-- **Hero** area at the top: title, subtitle, value proposition.
-- **How It Works** is a dedicated tab (not inside Overview) explaining the agent workflow.
-- Raw CSV datasets are not shown in main tabs; only processed outputs (meal cards, suggestions, logged foods, analysis).
-- Natural-language requests live in **Ask FitFuel AI** on Overview; parsing is local Python only.
-- **Generate Recommendations** is on Overview only; Gemini is not called per chat message.
-- Recommendations show **Recommendation type: Enhanced** or **Standard** (not “Gemini-enhanced” in the UI).
-- **Developer Settings** and **Developer Debug** are hidden by default (`DEBUG_MODE = False` in `app.py`).
-- Full agent and responsible-AI documentation lives in this README, not in separate app tabs.
-
-### Overview tab flow
-
-1. Summary metric cards  
-2. **Ask FitFuel AI** (chat-style input + assistant confirmation after **Create My Plan**)  
-3. **Create My Plan** / **Generate Recommendations** (also available in sidebar)  
-4. **Personalized Recommendations**  
-5. User profile summary, nutrition targets, meal timing guidance  
-
-### Navigation tabs
-
-1. Overview  
-2. How It Works  
-3. Meal Plan  
-4. Filipino Meal Suggestions  
-5. Food Log  
-6. Nutrition Analysis  
+- Modern dashboard layout using native Streamlit with custom CSS. Includes a **Hero** section, and clean **Navigation Tabs** (Overview, How It Works, Meal Plan, Suggestions, Food Log, Analysis).
+- **Ask FitFuel AI** enables natural-language goal-setting, processed locally.
+- **Generate Recommendations** accesses the AI layer for on-demand advice.
+- Datasets are processed and presented via clean summary cards instead of raw tables.
+- **Developer Options** are hidden by default (`DEBUG_MODE=False`).
 
 ### Meal plan scoring (CSV + Python)
 
 Meal and suggestion ranking uses a point-based score: preferred foods (+5), available ingredients (+5), meal type fit (+3), budget fit (+3), protein for goal (+2–3), very-busy simplicity (+1–2), disliked/allergy exclusion (-100), vague ingredients penalized, low-confidence nutrition rows deprioritized, and seafood/spam penalized when not in the user's preferences.
+
 
 ## Limitations
 
