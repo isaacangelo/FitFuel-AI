@@ -1,0 +1,39 @@
+food_name,category,serving_size,calories,protein_g,carbs_g,fats_g,fiber_g,estimated_cost_php,prep_time_minutes,meal_type,notes
+Egg,protein,1 large (50g),78,6.3,0.6,5.3,0,12,5,breakfast|snack|any,Quick protein source; boil or scramble
+Chicken breast,protein,100g cooked,165,31,0,3.6,0,45,20,lunch|dinner|any,Lean high-protein staple; grill or boil
+Canned tuna,protein,1 can (85g drained),120,26,0,1,0,35,2,lunch|dinner|snack,No-cook protein; budget-friendly
+Sardines,protein,1 can (92g),191,22.7,0,10.5,0,28,2,lunch|dinner,Omega-3 rich; affordable canned fish
+Tofu,protein,100g firm,76,8,1.9,4.8,0.3,25,10,lunch|dinner|any,Plant protein; stir-fry friendly
+Rice,carb,1 cup cooked (158g),206,4.3,45,0.4,0.6,15,15,lunch|dinner|any,Filipino staple carb source
+Oats,carb,1/2 cup dry (40g),150,5,27,3,4,18,5,breakfast|snack,Meal-prep friendly; high fiber
+Banana,fruit,1 medium (118g),105,1.3,27,0.4,3.1,15,0,snack|breakfast,Pre-workout carb; no cooking needed
+Milk,dairy,1 cup (240ml),103,8,12,2.4,0,22,0,breakfast|snack,Protein and calcium source
+Peanut butter,fat,2 tbsp (32g),188,8,6,16,2,25,0,breakfast|snack,Healthy fats; calorie dense
+Cabbage,vegetable,1 cup chopped (89g),22,1.1,5.2,0.1,2.2,12,10,lunch|dinner,Affordable fiber-rich vegetable
+Beans,carb,1/2 cup cooked (86g),127,8.7,23,0.5,8.1,20,5,lunch|dinner,High fiber and protein
+Sweet potato,carb,1 medium baked (114g),103,2.3,24,0.1,3.8,18,45,lunch|dinner,Complex carbs; meal prep friendly
+Whole wheat bread,carb,2 slices (56g),138,6,24,2,4,22,2,breakfast|snack,Quick carb source
+Yogurt,dairy,1 cup plain (245g),149,8.5,11.4,8,0,35,0,breakfast|snack,Protein and probiotics
+Tilapia,protein,100g cooked,128,26,0,2.7,0,55,15,lunch|dinner,Affordable local fish
+Lean pork,protein,100g cooked,143,26,0,3.5,0,50,25,lunch|dinner,High protein; adobo-friendly cut
+Monggo,carb,1/2 cup cooked (100g),105,7,19,0.4,8.7,15,30,lunch|dinner,Filipino staple; high fiber
+Apple,fruit,1 medium (182g),95,0.5,25,0.3,4.4,25,0,snack,Micronutrients and fiber
+Carrots,vegetable,1 cup chopped (128g),52,1.2,12,0.3,3.6,15,5,any,Affordable vegetable; snack or side
+Potato,carb,1 medium baked (173g),161,4.3,37,0.2,3.8,15,45,lunch|dinner,Carb source; boil or bake
+Pasta,carb,1 cup cooked (140g),221,8,43,1.3,2.5,25,12,lunch|dinner,Quick energy carbs
+Corned tuna,protein,1 can (130g),180,24,2,8,0,40,2,lunch|dinner,Filipino pantry staple
+Greek yogurt,dairy,1 cup (170g),100,17,6,0.7,0,45,0,breakfast|snack,High protein dairy option
+Ampalaya,vegetable,1 cup chopped (94g),16,1,3.4,0.2,2.6,20,10,lunch|dinner,Local bitter gourd; micronutrients
+Malunggay,vegetable,1 cup chopped (21g),9,2,1.7,0.2,0.9,10,5,any,Superfood greens; add to soups
+Broccoli,vegetable,1 cup chopped (91g),31,2.5,6,0.3,2.4,35,8,lunch|dinner,High fiber vegetable
+Peanut,protein,1/4 cup (36g),207,9.4,6,18,3.4,20,0,snack,Protein and healthy fats
+Chicken thigh,protein,100g cooked,209,26,0,10.9,0,35,25,lunch|dinner,Budget protein; more flavor than breast
+Ground beef lean,protein,100g cooked,250,26,0,15,0,60,15,lunch|dinner,High protein; use lean cuts
+Soy milk,dairy,1 cup (240ml),80,7,4,4,1,30,0,breakfast|snack,Plant-based protein drink
+Tomato,vegetable,1 medium (123g),22,1.1,4.8,0.2,1.5,8,0,any,Affordable micronutrient source
+Cucumber,vegetable,1 cup sliced (119g),16,0.7,3.8,0.1,0.5,10,0,any,Hydrating low-calorie vegetable
+Corn,carb,1/2 cup (89g),72,2.5,16,1,2,15,5,lunch|dinner,Carb and fiber source
+Lentils,carb,1/2 cup cooked (99g),115,9,20,0.4,7.9,18,25,lunch|dinner,Budget protein and fiber
+Brown rice,carb,1 cup cooked (195g),216,5,45,1.8,3.5,20,40,lunch|dinner,Whole grain; more fiber than white rice
+Avocado,fat,1/2 medium (68g),114,1.4,6,10.5,4.6,40,0,any,Healthy fats and fiber
+Coconut oil,fat,1 tbsp (14g),121,0,0,13.5,0,8,0,any,Cooking fat for Filipino dishes

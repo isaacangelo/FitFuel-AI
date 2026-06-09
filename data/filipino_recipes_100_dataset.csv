@@ -1,0 +1,122 @@
+recipe_name,serving_size,calories,protein_g,carbs_g,fats_g,fiber_g,estimated_cost_php,main_ingredients,meal_type
+Chicken Adobo,1 serving,157,8,13,6,2,29,"Soy sauce, vinegar, garlic, protein",Lunch/Dinner
+Sinigang na Baboy,1 serving,164,11,18,8,3,33,"Protein source, tamarind broth, vegetables",Lunch/Dinner
+Tinolang Manok,1 serving,171,14,23,10,4,37,Traditional Filipino ingredients,Lunch/Dinner
+Pork Menudo,1 serving,178,17,28,12,5,41,Traditional Filipino ingredients,Lunch/Dinner
+Ginisang Monggo,1 serving,185,20,33,14,6,45,Traditional Filipino ingredients,Lunch/Dinner
+Laing,1 serving,192,23,38,16,1,49,Traditional Filipino ingredients,Lunch/Dinner
+Tapsilog,1 serving,199,26,43,18,2,53,Traditional Filipino ingredients,Breakfast
+Longsilog,1 serving,206,29,48,20,3,57,Traditional Filipino ingredients,Breakfast
+Bangsilog,1 serving,213,32,53,22,4,61,Traditional Filipino ingredients,Breakfast
+Pancit Canton,1 serving,220,5,58,24,5,65,"Noodles, vegetables, meat",Lunch/Dinner
+Bistek Tagalog,1 serving,227,8,63,26,6,69,Traditional Filipino ingredients,Lunch/Dinner
+Adobong Pusit,1 serving,234,11,8,28,1,73,"Soy sauce, vinegar, garlic, protein",Lunch/Dinner
+Ginataang Kalabasa,1 serving,241,14,13,30,2,77,Traditional Filipino ingredients,Lunch/Dinner
+Chicken Curry Filipino Style,1 serving,248,17,18,32,3,81,Traditional Filipino ingredients,Lunch/Dinner
+Paksiw na Pata,1 serving,255,20,23,34,4,85,Traditional Filipino ingredients,Lunch/Dinner
+Dinengdeng,1 serving,262,23,28,36,5,89,Traditional Filipino ingredients,Lunch/Dinner
+Batchoy,1 serving,269,26,33,38,6,93,Traditional Filipino ingredients,Lunch/Dinner
+Pancit Malabon,1 serving,276,29,38,5,1,97,"Noodles, vegetables, meat",Lunch/Dinner
+Pancit Bihon,1 serving,283,32,43,7,2,101,"Noodles, vegetables, meat",Lunch/Dinner
+Pancit Habhab,1 serving,290,5,48,9,3,105,"Noodles, vegetables, meat",Lunch/Dinner
+Empanada,1 serving,297,8,53,11,4,109,Traditional Filipino ingredients,Snack
+Okoy,1 serving,304,11,58,13,5,113,Traditional Filipino ingredients,Snack
+Ukoy,1 serving,311,14,63,15,6,117,Traditional Filipino ingredients,Snack
+Lumpiang Ubod,1 serving,318,17,8,17,1,121,Traditional Filipino ingredients,Snack/Appetizer
+Fresh Lumpia,1 serving,325,20,13,19,2,125,Traditional Filipino ingredients,Snack/Appetizer
+Pichi-Pichi,1 serving,332,23,18,21,3,129,Traditional Filipino ingredients,Snack
+Sapin-Sapin,1 serving,339,26,23,23,4,133,Traditional Filipino ingredients,Snack
+Maja Blanca,1 serving,346,29,28,25,5,137,Traditional Filipino ingredients,Dessert
+Leche Flan,1 serving,353,32,33,27,6,141,Traditional Filipino ingredients,Dessert
+Halo-Halo,1 serving,360,5,38,29,1,25,Traditional Filipino ingredients,Dessert
+Buko Pandan,1 serving,367,8,43,31,2,29,Traditional Filipino ingredients,Dessert
+Cassava Cake,1 serving,374,11,48,33,3,33,Traditional Filipino ingredients,Dessert
+Ginataang Bilo-Bilo,1 serving,381,14,53,35,4,37,Traditional Filipino ingredients,Dessert
+Puto Bumbong,1 serving,388,17,58,37,5,41,Traditional Filipino ingredients,Snack
+Suman,1 serving,395,20,63,4,6,45,Traditional Filipino ingredients,Snack
+Inihaw na Liempo,1 serving,402,23,8,6,1,49,Traditional Filipino ingredients,Lunch/Dinner
+Inasal na Isda,1 serving,409,26,13,8,2,53,Traditional Filipino ingredients,Lunch/Dinner
+Chicken Barbecue,1 serving,416,29,18,10,3,57,Traditional Filipino ingredients,Lunch/Dinner
+Pork Barbecue,1 serving,423,32,23,12,4,61,Traditional Filipino ingredients,Lunch/Dinner
+Kinilaw,1 serving,430,5,28,14,5,65,Traditional Filipino ingredients,Lunch/Dinner
+Kilawin,1 serving,437,8,33,16,6,69,Traditional Filipino ingredients,Lunch/Dinner
+Igado,1 serving,444,11,38,18,1,73,Traditional Filipino ingredients,Lunch/Dinner
+Papaitan,1 serving,451,14,43,20,2,77,Traditional Filipino ingredients,Lunch/Dinner
+Kansi,1 serving,458,17,48,22,3,81,Traditional Filipino ingredients,Lunch/Dinner
+Beef Mechado,1 serving,465,20,53,24,4,85,Traditional Filipino ingredients,Lunch/Dinner
+Morcon,1 serving,472,23,58,26,5,89,Traditional Filipino ingredients,Lunch/Dinner
+Embutido,1 serving,479,26,63,28,6,93,Traditional Filipino ingredients,Lunch/Dinner
+Humba,1 serving,486,29,8,30,1,97,Traditional Filipino ingredients,Lunch/Dinner
+Binagoongan,1 serving,493,32,13,32,2,101,Traditional Filipino ingredients,Lunch/Dinner
+Tortang Talong,1 serving,500,5,18,34,3,105,Traditional Filipino ingredients,Lunch/Dinner
+Tortang Giniling,1 serving,507,8,23,36,4,109,Traditional Filipino ingredients,Lunch/Dinner
+Ginisang Ampalaya,1 serving,514,11,28,38,5,113,Traditional Filipino ingredients,Lunch/Dinner
+Ensaladang Talong,1 serving,521,14,33,5,6,117,Traditional Filipino ingredients,Side Dish
+Burong Isda,1 serving,528,17,38,7,1,121,Traditional Filipino ingredients,Side Dish
+Chicharon Bulaklak,1 serving,535,20,43,9,2,125,Traditional Filipino ingredients,Snack/Appetizer
+Tokneneng,1 serving,542,23,48,11,3,129,Traditional Filipino ingredients,Snack
+Kwek-Kwek,1 serving,549,26,53,13,4,133,Traditional Filipino ingredients,Snack
+Fishball,1 serving,556,29,58,15,5,137,Traditional Filipino ingredients,Snack
+Squidball,1 serving,563,32,63,17,6,141,Traditional Filipino ingredients,Snack
+Calamares,1 serving,570,5,8,19,1,25,Traditional Filipino ingredients,Snack
+Isaw,1 serving,577,8,13,21,2,29,Traditional Filipino ingredients,Snack
+Betamax,1 serving,584,11,18,23,3,33,Traditional Filipino ingredients,Snack
+Adidas,1 serving,591,14,23,25,4,37,Traditional Filipino ingredients,Snack
+Balut,1 serving,598,17,28,27,5,41,Traditional Filipino ingredients,Snack
+Penoy,1 serving,155,20,33,29,6,45,Traditional Filipino ingredients,Snack
+Pares Mami,1 serving,162,23,38,31,1,49,Traditional Filipino ingredients,Lunch/Dinner
+Goto,1 serving,169,26,43,33,2,53,Traditional Filipino ingredients,Breakfast
+Dinakdakan,1 serving,176,29,48,35,3,57,Traditional Filipino ingredients,Lunch/Dinner
+Paksiw na Bangus,1 serving,183,32,53,37,4,61,Traditional Filipino ingredients,Lunch/Dinner
+Ginataang Hipon,1 serving,190,5,58,4,5,65,Traditional Filipino ingredients,Lunch/Dinner
+Seafood Kare-Kare,1 serving,197,8,63,6,6,69,Traditional Filipino ingredients,Lunch/Dinner
+Beef Nilaga,1 serving,204,11,8,8,1,73,Traditional Filipino ingredients,Lunch/Dinner
+Chicken Sopas,1 serving,211,14,13,10,2,77,Traditional Filipino ingredients,Breakfast
+Macaroni Soup,1 serving,218,17,18,12,3,81,Traditional Filipino ingredients,Breakfast
+Chicken Pastel,1 serving,225,20,23,14,4,85,Traditional Filipino ingredients,Lunch/Dinner
+Sarciadong Isda,1 serving,232,23,28,16,5,89,Traditional Filipino ingredients,Lunch/Dinner
+Escabecheng Isda,1 serving,239,26,33,18,6,93,Traditional Filipino ingredients,Lunch/Dinner
+Sweet and Sour Pork,1 serving,246,29,38,20,1,97,Traditional Filipino ingredients,Lunch/Dinner
+Sweet and Sour Fish,1 serving,253,32,43,22,2,101,Traditional Filipino ingredients,Lunch/Dinner
+Beef Steak with Onion,1 serving,260,5,48,24,3,105,Traditional Filipino ingredients,Lunch/Dinner
+Pork Steak,1 serving,267,8,53,26,4,109,Traditional Filipino ingredients,Lunch/Dinner
+Chicken Teriyaki Filipino Style,1 serving,274,11,58,28,5,113,Traditional Filipino ingredients,Lunch/Dinner
+Ginataang Tilapia,1 serving,281,14,63,30,6,117,Traditional Filipino ingredients,Lunch/Dinner
+Adobong Sitaw,1 serving,288,17,8,32,1,121,"Soy sauce, vinegar, garlic, protein",Lunch/Dinner
+Ginisang Sayote,1 serving,295,20,13,34,2,125,Traditional Filipino ingredients,Lunch/Dinner
+Ginisang Repolyo,1 serving,302,23,18,36,3,129,Traditional Filipino ingredients,Lunch/Dinner
+Pork Sinigang sa Miso,1 serving,309,26,23,38,4,133,"Protein source, tamarind broth, vegetables",Lunch/Dinner
+Sinigang na Hipon,1 serving,316,29,28,5,5,137,"Protein source, tamarind broth, vegetables",Lunch/Dinner
+Bulanglang,1 serving,323,32,33,7,6,141,Traditional Filipino ingredients,Lunch/Dinner
+Paksiw na Lechon,1 serving,330,5,38,9,1,25,Traditional Filipino ingredients,Lunch/Dinner
+Lechon Paksiw,1 serving,337,8,43,11,2,29,Traditional Filipino ingredients,Lunch/Dinner
+Dinuguang Manok,1 serving,344,11,48,13,3,33,Traditional Filipino ingredients,Lunch/Dinner
+Chicken Afritada,1 serving,351,14,53,15,4,37,Traditional Filipino ingredients,Lunch/Dinner
+Pork Afritada,1 serving,358,17,58,17,5,41,Traditional Filipino ingredients,Lunch/Dinner
+Chicken Mechado,1 serving,365,20,63,19,6,45,Traditional Filipino ingredients,Lunch/Dinner
+Beef Tapa,1 serving,372,23,8,21,1,49,Traditional Filipino ingredients,Breakfast
+Tuyo Silog,1 serving,379,26,13,23,2,53,"Garlic rice, egg, viand",Breakfast
+Danggit Silog,1 serving,386,29,18,25,3,57,"Garlic rice, egg, viand",Breakfast
+Spam Silog,1 serving,393,32,23,27,4,61,"Garlic rice, egg, viand",Breakfast
+Tocilog,1 serving,400,5,28,29,5,65,Traditional Filipino ingredients,Breakfast
+Porksilog,1 serving,407,8,33,31,6,69,Traditional Filipino ingredients,Breakfast
+Chicken Silog,1 serving,414,11,38,33,1,73,"Garlic rice, egg, viand",Breakfast
+Shrimp Sinigang,1 serving,421,14,43,35,2,77,"Protein source, tamarind broth, vegetables",Lunch/Dinner
+Seafood Palabok,1 serving,428,17,48,37,3,81,Traditional Filipino ingredients,Lunch/Dinner
+Pork Binagoongan,1 serving,435,20,53,4,4,85,Traditional Filipino ingredients,Lunch/Dinner
+Ginataang Alimasag,1 serving,442,23,58,6,5,89,Traditional Filipino ingredients,Lunch/Dinner
+Adobong Baboy,1 serving,449,26,63,8,6,93,"Soy sauce, vinegar, garlic, protein",Lunch/Dinner
+Chicken Liver Adobo,1 serving,456,29,8,10,1,97,"Soy sauce, vinegar, garlic, protein",Lunch/Dinner
+Pork Estofado,1 serving,463,32,13,12,2,101,Traditional Filipino ingredients,Lunch/Dinner
+Oats with Banana,1 serving,255,7,50,4,6,18,"Oats, banana, water",Breakfast/Snack
+Boiled Egg and Rice,1 serving,284,14,45,6,1,15,"Egg, rice",Breakfast/Snack
+Scrambled Egg Rice Bowl,1 serving,300,15,42,8,1,18,"Egg, rice, oil",Breakfast
+Banana Oats Snack,1 serving,205,5,42,3,5,15,"Oats, banana",Snack/Breakfast
+Egg Rice Meal,1 serving,270,13,44,7,1,15,"Egg, rice",Breakfast/Lunch
+Oatmeal with Banana,1 serving,250,6,49,4,6,20,"Oats, banana, milk",Breakfast/Snack
+Sinangag at Itlog,1 serving,310,14,46,9,1,18,"Garlic rice, egg",Breakfast
+Boiled Eggs,1 serving,156,12,1,10,0,12,"Egg",Snack/Any
+Banana Snack,1 serving,105,1,27,0,3,15,"Banana",Snack/Any
+Rice and Egg Bowl,1 serving,288,14,46,7,1,16,"Rice, egg, oil",Breakfast/Lunch
+Simple Chicken Rice Meal,1 serving,340,28,40,6,2,55,"Chicken, rice",Lunch/Dinner
+Chicken and Rice Bowl,1 serving,360,30,42,7,2,60,"Chicken, rice, garlic",Lunch/Dinner
